@@ -1,4 +1,5 @@
 body {
+background-image: url("the-old-well.jpg");
 background-color: #fafafa;
 }
 hr {border-color: #a2d5f2;
@@ -10,4 +11,8 @@ h1 {color:#07689f;}
 
 h3 {
   color: #07689f;
+}
+img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
